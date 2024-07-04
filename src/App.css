@@ -1,0 +1,42 @@
+* {
+  background-color: #333;
+  color: #e4e4e4;
+}
+
+.navbar {
+  overflow: hidden;
+  color: #e4e4e4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+}
+
+.card>input {
+  flex-grow: 1;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+}
+
+.chatList {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.messageInput {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.messageInput>input {
+  flex-grow: 1;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+}
